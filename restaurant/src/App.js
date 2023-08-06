@@ -8,12 +8,10 @@ import Footer from './Footer.js';
 function App() {
   return (
     <>
-
     <Header/>
     <Nav/>
     <Main/>
     <Footer/>
-
     </>
   );
 }

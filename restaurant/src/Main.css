@@ -1,0 +1,153 @@
+.hero {
+    background-color: #495E57;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.hero .card {
+    max-height: auto;
+    width: 330px;
+    margin: 30px;
+}
+ .card h1 {
+    font-family: Markazi;
+    color : #F4CE14;
+    margin: 0;
+   
+}
+.card h2 {
+    color :white;
+    font-family: karla;
+    margin: 0;
+}
+.card p {
+    text-align: left;
+    margin: 0;
+    color :white;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+.card button {
+    background-color: #F4CE14;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding : 10px;
+    border-radius: 10px;
+    border: none;
+    color :black;
+    font-family: karla;
+    font-weight: bold;
+}
+.restaurantfood img {
+    height: 300px;
+    width: 280px;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+@media only screen and (max-width: 600px) {
+    .restaurantfood img {
+      display: none;
+    }
+    .hero{
+        width :100%;
+        justify-content: left;
+        padding-right: 50px;
+        
+    }
+    .hero .card {
+       width: 50%;
+    }
+  }
+.highlights {
+    
+    margin-top: 30px;
+}
+.Title-high button
+{   
+    background-color: #F4CE14;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding : 10px;
+    border-radius: 10px;
+    border: none;
+    color :black;
+    font-family: karla;
+    font-weight: bold;
+}
+.Title-high
+{
+    display: flex;
+    justify-content: center;
+    justify-content :space-around;
+
+}
+.Title-high h1{
+    margin-top: auto;
+}
+.cards 
+{
+    display: flex;
+    justify-content: center;
+    
+}
+@media only screen and (max-width: 600px) {
+    .cards {
+        width: 100%;
+        display: block;
+    }
+}
+.cards .card 
+{
+    max-width: 250px;
+    height: auto;
+    background-color: #cfd8d5;
+    margin: 30px;
+}
+
+.cards .card img
+{
+    height: 200px;
+    width: 250px;
+}
+.meal 
+{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+
+}
+
+.meal p 
+{
+    color :rgb(0, 0, 0);
+    font-family: karla;
+    font-size: 18px;
+    font-weight: medium;
+    margin-top: 27px;
+
+
+}
+.cards .card h3{
+    margin-top: 25px;
+    margin-right: 25PX;
+   
+}
+.descriptive {
+    margin : 15px;
+}
+.descriptive p{
+    margin: 15px;
+    font-family: karla;
+    color: black;
+}
+.descriptive button
+{ 
+    color: black;
+    font-family: karla;
+    background-color: white;
+    margin-top: 5px;
+    font-weight: 600;
+}
