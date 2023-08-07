@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    display :flex;
+    justify-content: space-around;
+    height: 6rem;
+    width: 100%;
+
+}
+.nav-link {
+    display : inline-flex;
+    list-style-type: none;
+    color: #495E57; /* Color of the navigation links */
+    text-decoration: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 60%;
+
+}
+.nav-link :hover{
+    background-color: #F4CE14;
+    cursor: pointer;
+    font-size: medium;
+    padding: 4px;
+    box-shadow: 5px 3px 3px rgb(220, 221, 151);
+   
+}
+
+.nav-link li
+{
+    margin-right: 20px;
+    text-decoration: none;
+
+
+}
+.nav-link li a
+{
+    text-decoration: none;
+    font-family: karla;
+    font-size: medium;
+}
+.logo
+{
+max-width: 15.625rem;
+margin-right: 6rem;}
+.mobile-menu-icon
+{
+    display: none;
+}
+.logo-white 
+{
+    display: none;
+}
+@media only screen and (max-width: 760) {
+    .nav {
+        display :flex;
+        justify-content: space-between;
+        height: 5rem;
+        width: 100%;
+        background-color: #74817d;
+    
+    }
+    .logo {
+        display: none;
+        position: absolute;
+                margin-top: 20px;
+        margin-right: 0;
+        max-width: 15rem;
+    }
+    .nav-link {
+        display: none;
+    }
+    .nav-links-mobile
+    {
+        position: absolute;
+        display: block;
+        list-style: none;
+        top: 9.5%;
+        transition: all 0.5s ease-in-out;
+        width: 80%;
+        background-color: #F4CE14;
+    }
+    .nav-links-mobile :hover{
+        background-color: #fcfbf9;
+        cursor: pointer;
+        font-size: medium;}
+
+
+    ul li 
+    {
+        width: 100%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+        padding-bottom: 15px;
+    }
+.mobile-menu-icon 
+{
+    position: absolute;
+    display: inline-block;
+    background-color:transparent;
+    border: none;
+    margin: 5%;
+}
+.mobile {
+    display: flex;
+    justify-items: right;
+    
+}
+.logo-white{
+    display: visible;
+}
+
+}
