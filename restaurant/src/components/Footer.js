@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from './Assets/logo-white.png';
+import Logowhite from './Assets/logo-white.png';
 import './Footer.css';
 
 export default function Footer() {
@@ -7,8 +7,8 @@ export default function Footer() {
     <footer>
       <menu className="footer">
       <div className="img-footer">
-          <img className="logo-white"
-            src={Logo}
+          <img className="logowhite"
+            src={Logowhite}
             alt="Little Lemon logo"
           ></img>
       </div>
@@ -37,27 +37,15 @@ export default function Footer() {
         <div className="social-media">
           <h1 className="footer-header">Connect</h1>
           <ul className="footer-links">
-          <li><a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
+          <li>
               Facebook
-            </a></li>
-            <li><a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
+            </li>
+            <li>
               Instagram
-            </a></li>
-            <li> <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
+            </li> 
+            <li>
               Join us!
-            </a> </li>
+              </li>
           </ul>
         </div>
       </menu>

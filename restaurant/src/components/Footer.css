@@ -11,10 +11,11 @@ footer
   justify-content: space-around;
 
 }
-.logo-white
+.logowhite
 { 
   max-width: 60px;
   margin-top: 20px;
+  margin-right: 4rem;
 }
 .footer-links
 {
@@ -57,7 +58,7 @@ margin-right: 1rem;
 }
 .social-media li  
 {
-  color :rgb(248, 4, 4) ;
+  color :white;
   text-decoration: none;
 }
  
