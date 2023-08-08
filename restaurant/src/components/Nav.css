@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-*
-{
-    padding: 0;
-    margin: 0;
-}
 .nav {
-    display :flex;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
     justify-content: space-around;
-    height: 6rem;
-    width: 100%;
-
 }
 .nav-link {
     display : inline-flex;
@@ -19,21 +13,24 @@
     margin-top: 35px;
     margin-bottom: 35px;
     width: 60%;
+    text-align: center;
+    padding: 0.5rem;
 
 }
 .nav-link :hover{
     background-color: #F4CE14;
     cursor: pointer;
-    font-size: medium;
-    padding: 4px;
     box-shadow: 5px 3px 3px rgb(220, 221, 151);
    
 }
 
 .nav-link li
 {
-    margin-right: 20px;
+    margin-right: 40px;
     text-decoration: none;
+    padding: 10px;
+    font-size: Medium;
+    font-weight: 700;
 
 
 }
@@ -45,7 +42,7 @@
 }
 .logo
 {
-max-width: 15.625rem;
+width: 15.625rem;
 margin-right: 6rem;}
 .mobile-menu-icon
 {
