@@ -19,7 +19,7 @@ const Main = () => {
         <button>Reserve a table</button>
         </section>
         <section className="restaurantfood">
-        <img src={restauranfood} alt ="restauranfood"/>
+        <img src={restauranfood} alt ="restauranfood" className='restauranfood-img'/>
       </section>
       </div>
       <div className="highlights">

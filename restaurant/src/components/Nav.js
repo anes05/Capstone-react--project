@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
-
+import { Link } from 'react-router-dom';
 import Logo from './Assets/Logo.svg'
 import LogoWhite from './Assets/logo-white.png'
 import './Nav.css'
@@ -14,11 +14,11 @@ const Nav = () => {
   <nav className="navbar">
     <container className="nav">
      <img className="logo" src={Logo} alt="logo"/>
-     <ul className = {isMobile ? 'nav-links-mobile' : 'nav-link'} onClick={ () =>setIsMobile(true)}>
-        <li>HOME</li>
+     <ul className = {isMobile ? 'nav-links-mobile' : 'nav-link'}>
+        <li><Link to ="/">HOME</Link></li>
         <li>ABOUT</li>
         <li>MENU</li>
-        <li>RESERVATION</li>
+        <li><Link to ="/reservation">RESERVATION</Link></li>
         <li>ORDER ONLINE</li>
         <li>LOGIN</li>
      </ul>

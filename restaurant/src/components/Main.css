@@ -45,6 +45,7 @@
     width: 280px;
     margin-top: 30px;
     margin-bottom: auto;
+    border-radius: 5%;
 }
 @media only screen and (max-width: 600px) {
     .restaurantfood img {

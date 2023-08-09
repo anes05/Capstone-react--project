@@ -2,15 +2,21 @@ import './App.css';
 import Main from './components/Main.js';
 import Nav from './components/Nav.js';
 import Footer from './components/Footer.js';
-import OurStory from './components/OurStory.js';
-
+import { Route , Routes } from 'react-router-dom';
+import Reservation from './components/Reservation.js';
 
 function App() {
   return (
     <>
     <Nav/>
-    <Main />
+    <Routes>
+    <Route path='/' element={<Main/>}></Route>
+    <Route path='/reservation' element={<Reservation/>}></Route>
+    </Routes>
+    
+
     <Footer/>
+        
 
     </>
   );
