@@ -1,0 +1,48 @@
+.reservation-form
+{
+    background-color:#495E57 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+label {
+  color: #F4CE14;  
+}
+.calendar
+{
+    width: 8rem;
+}
+.container
+{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.reservation-part
+{
+  padding-top: 2rem;
+}
+.action-button
+{
+  text-decoration: none;
+  color: #495E57 ;
+  background-color: #F4CE14;
+  padding: 0.5rem;
+  border-radius: 10% 10% 10%;
+  cursor: pointer;
+}
+.err-msg
+{
+  color: red;
+}
+.h1-reservation 
+{
+  color: #F4CE14;
+}
+.datePicker
+{
+  width: 100%;
+}

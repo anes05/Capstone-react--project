@@ -23,10 +23,9 @@ const Nav = () => {
         <li>LOGIN</li>
      </ul>
      <div className="mobile">
-     <img className="logo-white" src={LogoWhite} alt="logo-white"/>
      <button className ="mobile-menu-icon" onClick ={() => setIsMobile(!isMobile)}> { isMobile ? <ImCross  size={35}/> : <FaBars size={35}/>}</button>
      </div>
-    </container> 
+    </container>
   </nav>
 )};
 
