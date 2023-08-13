@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    transition: 0.1s all ease-out;
+}
+
+:is(html, body) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+:is(button, input, select, option) {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
